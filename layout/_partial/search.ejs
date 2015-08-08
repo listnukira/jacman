@@ -18,4 +18,31 @@ google.setOnLoadCallback(function(){
   }
 },true);
 </script>
+<% } else if (theme.swiftype_search.enable) { %>
+<div  id="main" class="page">
+  <div id="st-results-container" style="width:80%">搜尋中...</div>
+</div>
+<style>
+.st-query-present {
+  padding:0.1em 0em;
+}
+.st-ui-result {
+  background: #fafafa;
+  display: block;
+  border-left: 0.5em solid #ccc;
+  -webkit-transition: border-left 0.45s;
+  -moz-transition: border-left 0.45s;
+  -o-transition: border-left 0.45s;
+  -ms-transition: border-left 0.45s;
+  transition: border-left 0.45s;
+  padding: 1em;
+}
+.st-ui-result:hover {
+  border-left: 0.5em solid #2ca6cb;
+}
+.st-ui-type-heading {
+  font-size: 1em;
+  line-height: 2;
+}
+</style>
 <% } %>
