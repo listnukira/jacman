@@ -36,8 +36,8 @@ theme_color:
     theme: '#2ca6cb'    ##the defaut theme color is blue
 
 # 代码高亮主题
-# available: default | night
-highlight_theme: night
+# available: tomorrow | tomorrow-night | solarized-dark
+highlight_theme: solarized-dark
 
 #### index post is expanding or not 
 index:
